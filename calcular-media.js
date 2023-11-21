@@ -47,31 +47,10 @@ function calcular(){
         else{
             resultado = window.alert("REPROVADO");
             document.querySelector('#resultado').innerHTML = 'REPROVADO'
-            
         }
-
         document.querySelector('#resultado').innerHTML = resultado.toFixed(0);
 }
-/*
-let select = document.querySelector();
-
-select.addEventListener('change',function(){
-
-    let imgOperacao = document.querySelector('#imgSituacao');
-    let op = select.options[select.selectedIndex].value;
-
-    if(resultado == '>=7'){
-        imgSituacao.setAttribute('src','img calculadora de media/adicionar.png');
-    }
-
-    if(resultado == '<7'){
-        imgSituacao.setAttribute('src','img calculadora/subtracao.png');
-    }
-
-});
-*/
 function limpar(){
-
     document.querySelector('#nota1').value = '';
     document.querySelector('#nota2').value = '';
     document.querySelector('#nota3').value = '';

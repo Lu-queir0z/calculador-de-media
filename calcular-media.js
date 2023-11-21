@@ -50,6 +50,10 @@ function calcular(){
         }
         document.querySelector('#resultado').innerHTML = resultado.toFixed(0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a0a8e0e33a099fb4f0b5066b287c6f4d5f10cc5
 function limpar(){
     document.querySelector('#nota1').value = '';
     document.querySelector('#nota2').value = '';
